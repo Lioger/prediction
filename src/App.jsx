@@ -23,7 +23,7 @@ const App = () => {
     let lastRandomNumber = 1;
     const interval = setInterval(() => {
       lastRandomNumber = getRandomNumber(12);
-      predictionRef.current.src = `/prediction/predictions/${lastRandomNumber}.jpg`;
+      predictionRef.current.src = `/predictions/${lastRandomNumber}.jpg`;
     }, 100);
     setTimeout(() => {
       clearInterval(interval);
@@ -47,7 +47,7 @@ const App = () => {
       </div>
       <img
         ref={predictionRef}
-        src="/prediction/predictions/1.jpg"
+        src="/predictions/1.jpg"
         className="page-block hidden prediction-image"
         alt="Предсказание"
       />
