@@ -1,0 +1,46 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color:rgb(9, 0, 50);
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+  align-items: center;
+}
+
+.main-video {
+  width: 80vw;
+  max-width: 1280px;
+}
+
+.predict-btn {
+  padding: 16px 24px;
+  border: 2px solid white;
+  border-radius: 12px;
+  color: white;
+  width: max-content;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+}
+
+.predict-btn.disabled {
+  pointer-events: none;
+}
+
+.prediction-image {
+  width: 80vw;
+}
+
+.prediction-image.invisible {
+  opacity: 0.1;
+}
+
+.hidden {
+  display: none !important;
+}
