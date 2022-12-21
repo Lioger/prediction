@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/prediction/static/css/main.8b07f0c2.css",
+    "main.js": "/prediction/static/js/main.fa79e7af.js",
+    "index.html": "/prediction/index.html",
+    "main.8b07f0c2.css.map": "/prediction/static/css/main.8b07f0c2.css.map",
+    "main.fa79e7af.js.map": "/prediction/static/js/main.fa79e7af.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8b07f0c2.css",
+    "static/js/main.fa79e7af.js"
+  ]
+}
